@@ -1,0 +1,112 @@
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header img{
+  width: 315px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+
+/* Main.css */
+
+.main{
+  padding: 22px 36px;
+  background-color: #1A1B21;
+  width: 317px;
+  height: 399px;
+  box-sizing: border-box;
+}
+.main h1,h4,h5{
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31px;
+  margin-top: 21px;
+  margin-bottom: 7px;
+}
+.occupation{
+  color: #F3BF99;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 7px;
+}
+.email{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  margin-top: 15px;
+  margin-bottom: 33px;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  gap: 10px;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  padding: 9px 13px;
+}
+.linkedin-btn{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+.btn i{
+  font-size: 15px;
+}
+.btn span{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.about h1, .interest h1{
+  font-size: 16px;
+  line-height: 24px;
+  color: #F5F5F5;
+}
+.about-text{
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #DCDCDC;
+}
+
+
+/* Footer.css */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #161619;
+  height: 64px;
+  gap: 24px;
+  border-radius: 0px 0px 10px 10px;
+}

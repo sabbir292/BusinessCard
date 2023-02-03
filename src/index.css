@@ -1,0 +1,15 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.main-container{
+  margin: auto;
+  height: 868px;
+  width: 550px;
+  background-color: #23252C;
+  padding: 44px 116px;
+  box-sizing: border-box;
+}
